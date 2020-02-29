@@ -1,4 +1,4 @@
-# Triangle
+lear# Triangle
 
 ## Objectives
 
