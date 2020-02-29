@@ -11,7 +11,7 @@ class Triangle
     def kind
      if (angle_x * angle_y * angle_z) == 0 || (angle_x + angle_y) <= angle_z || (angle_y + angle_z) <= angle_x || (angle_z + angle_x) <= angle_y 
           raise TriangleError
-     elsif angle_x < 0 || angle_y < 0 || angle_z < 0
+     elsif angle_x <= 0 || angle_y <= 0 || angle_z <= 0
           raise TriangleError
           elsif angle_x == nil || angle_y == nil || angle_z == nil
           raise TriangleError
